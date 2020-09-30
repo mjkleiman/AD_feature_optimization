@@ -6,6 +6,7 @@ Michael J. Kleiman*, Elan Barenholtz, and James E. Galvin, for the Alzheimer's D
 
 \** All data used in the preparation of this code were obtained from the Alzheimer's Disease Neuroimaging Initiative. A list of the features used can be found in the file **List_of_Features.md**
 
+## Layout
 Code is located in the **code** directory, arranged in the order they are used to generate outputs. The exception is the splitrepeat.py file, which is a custom-created high stochasticity cross-validation procedure, outlined in an upcoming publication.
 
 Generated feature sets and pairs of feature sets can be found in **Selected_Sets.md**
