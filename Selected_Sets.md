@@ -2,11 +2,11 @@
 
 ## 2-class models
 
-**Manual-4**:
+**Top-4**:
 
 e_memory_pt, LDELTOTAL, e_memory_cg, tmab_time *(4 features)*
 
-**Manual-8**:
+**Top-8**:
 
 LDELTOTAL, faq9, e_memory_pt, tmab_time, ADAS_Q1, e_divatt_cg, ADAS_Q4, e_memory_cg *(8 features)*
 
@@ -14,17 +14,17 @@ LDELTOTAL, faq9, e_memory_pt, tmab_time, ADAS_Q1, e_divatt_cg, ADAS_Q4, e_memory
 
 ADAS_Q1, e_memory_pt, LDELTOTAL, e_memory_cg, ADAS_Q8, tmab_time, e_divatt_cg, faq9, ADAS_Q4 *(9 features)*
 
-**Manual-4+ECOG/FAQ**:
+**Top-4+ECOG+FAQ**:
 
 ADAS_Q1, ADAS_Q4, LDELTOTAL, tmab_time, e_memory_pt, e_lang_pt, e_visspat_pt, e_plan_pt, e_organ_pt, e_divatt_pt, e_memory_cg, e_lang_cg, e_visspat_cg, e_plan_cg, e_organ_cg, e_divatt_cg, faq1, faq2, faq3, faq4, faq5, faq6, faq7, faq8, faq9, faq10 *(26 features)*
 
-**Manual-4/8 MCN**:
+**Top-4/8 MCN**:
 
 *Class CDR 0*: LDELTOTAL, faq9, e_memory_pt, tmab_time, ADAS_Q1, e_divatt_cg, ADAS_Q4, e_memory_cg *(8 features)*
 
 *Class CDR 0.5/1*: LDELTOTAL, e_memory_pt, tmab_time, e_memory_cg *(4 features)*
 
-**Manual-8+ECOG/FAQ MCN**:
+**Top-8+ECOG+FAQ MCN**:
 
 *Class CDR 0*: LDELTOTAL, tmab_time, ADAS_Q1, ADAS_Q4, e_memory_pt, e_lang_pt, e_visspat_pt, e_plan_pt, e_organ_pt, e_divatt_pt, e_memory_cg, e_lang_cg, e_visspat_cg, e_plan_cg, e_organ_cg, e_divatt_cg, faq1, faq2, faq3, faq4, faq5, faq6, faq7, faq8, faq9, faq10 *(26 features)*
 
@@ -36,11 +36,11 @@ ADAS_Q1, ADAS_Q4, LDELTOTAL, tmab_time, e_memory_pt, e_lang_pt, e_visspat_pt, e_
 
 e_lang_pt, faq2, ADAS_Q1, LDELTOTAL, faq3, ADAS_Q4, tmab_time, faq9, e_divatt_cg, ADAS_Q8, faq7, e_lang_cg, ADAS_Q7, faq10, e_memory_pt, CATANIMSC, e_memory_cg *(17 features)*
 
-**Manual-4+ECOG/FAQ**:
+**Top-4+ECOG+FAQ**:
 
 ADAS_Q1, ADAS_Q4, LDELTOTAL, AVDEL30MIN, tmab_time, e_memory_pt, e_lang_pt, e_visspat_pt, e_plan_pt, e_organ_pt, e_divatt_pt, e_memory_cg, e_lang_cg, e_visspat_cg, e_plan_cg, e_organ_cg, e_divatt_cg, faq1, faq2, faq3, faq4, faq5, faq6, faq7, faq8, faq9, faq10 *(27 features)*
 
-**Manual-4/8+ECOG MCN**:
+**Top-4/8+ECOG MCN**:
 
 *Class CDR 0*: ADAS_Q1, ADAS_Q4, LDELTOTAL, tmab_time, e_memory_cg, e_memory_pt, e_lang_cg, e_divatt_cg *(8 features)*
 
@@ -48,7 +48,7 @@ ADAS_Q1, ADAS_Q4, LDELTOTAL, AVDEL30MIN, tmab_time, e_memory_pt, e_lang_pt, e_vi
 
 *Class CDR 1*: ADAS_Q1, ADAS_Q4, LDELTOTAL, tmab_time, e_memory_pt, e_lang_pt, e_visspat_pt, e_plan_pt, e_organ_pt, e_divatt_pt, e_memory_cg, e_lang_cg, e_visspat_cg, e_plan_cg, e_organ_cg, e_divatt_cg *(16 features)*
 
-**Manual-4+ECOG/FAQ MCN**:
+**Top-4+ECOG+FAQ MCN**:
 
 *Class CDR 0*: ADAS_Q1, ADAS_Q4, LDELTOTAL, AVDEL30MIN, tmab_time, e_memory_cg, e_lang_cg, e_divatt_cg *(8 features)*
 
