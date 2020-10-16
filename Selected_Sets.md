@@ -36,7 +36,7 @@ ADAS_Q1, ADAS_Q4, LDELTOTAL, tmab_time, e_memory_pt, e_lang_pt, e_visspat_pt, e_
 
 e_lang_pt, faq2, ADAS_Q1, LDELTOTAL, faq3, ADAS_Q4, tmab_time, faq9, e_divatt_cg, ADAS_Q8, faq7, e_lang_cg, ADAS_Q7, faq10, e_memory_pt, CATANIMSC, e_memory_cg *(17 features)*
 
-**Top-4+ECOG+FAQ**:
+**Top-8+ECOG+FAQ**:
 
 ADAS_Q1, ADAS_Q4, LDELTOTAL, AVDEL30MIN, tmab_time, e_memory_pt, e_lang_pt, e_visspat_pt, e_plan_pt, e_organ_pt, e_divatt_pt, e_memory_cg, e_lang_cg, e_visspat_cg, e_plan_cg, e_organ_cg, e_divatt_cg, faq1, faq2, faq3, faq4, faq5, faq6, faq7, faq8, faq9, faq10 *(27 features)*
 
