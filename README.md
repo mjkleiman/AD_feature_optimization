@@ -6,6 +6,9 @@ Michael J. Kleiman*, Elan Barenholtz, and James E. Galvin, for the Alzheimer's D
 
 \** All data used in the preparation of this code were obtained from the Alzheimer's Disease Neuroimaging Initiative. A list of the features used can be found in the file **List_of_Features.md**
 
+#### Please cite our preprint/code:
+[![DOI](https://img.shields.io/badge/medRxiv-10.1101%2F2020.10.28.20212027-blue)](https://doi.org/10.1101/2020.10.28.20212027)
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4081704.svg)](https://doi.org/10.5281/zenodo.4081704)
 
 ## Layout
